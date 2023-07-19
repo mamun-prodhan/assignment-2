@@ -300,4 +300,21 @@ body{
         flex-direction: column;
         align-items: center;
     }
+        /* play container */
+    .play-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .play-instantly{
+        max-width: 1920px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .play-instantly-text{
+        width: 100%;
+        text-align: center;
+    }
+    .play-instantly-img{
+        width: 100%;
+    }
 }
