@@ -225,6 +225,43 @@ body{
 .btn-common:hover p{
     color: #FF42A5;
 }
+/* footer */
+.footer{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 5rem;
+    background-color: #0B0223;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-logo h2{
+    font-size: 3rem;
+    color: #FFF;
+    margin-left: 2rem;
+}
+.footer-logo img{
+    width: 86px;
+    height: 40px;
+}
+.footer-menu-container{
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.footer-menu ul li{
+    list-style: none;
+    margin-left: 32px;
+}
 
 
 
