@@ -262,6 +262,13 @@ body{
     list-style: none;
     margin-left: 32px;
 }
+.icon-container{
+    text-align: center;
+}
+.footer-icon{
+    color: #FFF;
+    margin-right: 1rem;
+}
 
 
 
