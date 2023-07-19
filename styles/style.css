@@ -264,10 +264,15 @@ body{
 }
 .icon-container{
     text-align: center;
+    margin: 3rem 0 3rem 0;
 }
 .footer-icon{
     color: #FFF;
     margin-right: 1rem;
+}
+.footer-p{
+    text-align: center;
+    color: #FFF;
 }
 
 
