@@ -1,403 +1,467 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
 
-body{
-    font-family: 'Work Sans', sans-serif;
+body {
+  font-family: "Work Sans", sans-serif;
 }
 /* shared */
-.colored-text{
-    color: #FF42A5;
+.colored-text {
+  color: #ff42a5;
 }
-
-
-
 
 /*header and nav */
-.header{
-    max-width: 1920px;
-    margin: 0 auto;
-    padding-left: 240px;
-    padding-right: 240px;
-    background-color: #FFF;
+.header {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-left: 240px;
+  padding-right: 240px;
+  background-color: #fff;
 }
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.brand{
-    display: flex;
-    align-items: center;
+.brand {
+  display: flex;
+  align-items: center;
 }
-.brand-title{
-    font-size: 2.8rem;
-    margin-left: 20px;
-    font-weight: 700;
+.brand-title {
+  font-size: 2.8rem;
+  margin-left: 20px;
+  font-weight: 700;
 }
-.brand img{
-    height: 40px;
-    width: 86px;
+.brand img {
+  height: 40px;
+  width: 86px;
 }
-.menu ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
+.menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
 }
-.menu ul li{
-    list-style: none;
-    margin-left: 32px;
+.menu ul li {
+  list-style: none;
+  margin-left: 32px;
 }
-.menu ul li a{
-    text-decoration: none;
-    color: #3C354F;
-    font-weight: 500;
-     
+.menu ul li a {
+  text-decoration: none;
+  color: #3c354f;
+  font-weight: 500;
 }
-.fa-youtube{
-    margin-left: 24px;
-    margin-right: 24px;
-    color: #F61C0D;
+.fa-youtube {
+  margin-left: 24px;
+  margin-right: 24px;
+  color: #f61c0d;
 }
-.menu-btn{
-    padding: 18px 24px;
-    background-color: rgba(11, 2, 35, 0.10);
-    border-radius: 8px;  
+.menu-btn {
+  padding: 18px 24px;
+  background-color: rgba(11, 2, 35, 0.1);
+  border-radius: 8px;
 }
 /* banner style */
-.banner{
-    display: flex;
-    gap: 2rem;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
+.banner {
+  display: flex;
+  gap: 2rem;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
 }
-.banner-text{
-    width: 50%;
+.banner-text {
+  width: 50%;
 }
-.banner-text h2{
-    color: #0B0223;
-    font-size: 3rem;
-    font-weight: 600;
-    margin: 0;
+.banner-text h2 {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 0;
 }
-.banner-text h1{
-    color: #FF42A5;
-    font-size: 6rem;
-    font-weight: 800;
-    margin-bottom: 1.5rem;
-    margin-top: 0;
+.banner-text h1 {
+  color: #ff42a5;
+  font-size: 6rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
 }
-.banner-text p{
-    color: #534C64;
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+.banner-text p {
+  color: #534c64;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
-.btn-primary{
-    padding: 21px 40px;
-    margin-right: 10px;
-    border-radius: 48px;
-    border: none;
-    background-color: #FF42A5;
-    color: #FFF;
-    font-size: 1rem;
-    font-weight: 600;
-    margin-top: 40px;
+.btn-primary {
+  padding: 21px 40px;
+  margin-right: 10px;
+  border-radius: 48px;
+  border: none;
+  background-color: #ff42a5;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 40px;
 }
-.btn-secondary{
-    padding: 21px 40px;
-    margin-right: 10px;
-    border-radius: 48px;
-    border: none;
-    background-color: #4EC5F7;
-    color: #FFF;
-    font-size: 1rem;
-    font-weight: 600;
-    margin-top: 40px;
+.btn-secondary {
+  padding: 21px 40px;
+  margin-right: 10px;
+  border-radius: 48px;
+  border: none;
+  background-color: #4ec5f7;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 40px;
 }
-.banner-img{
-    width: 50%;
+.banner-img {
+  width: 50%;
 }
-.banner-img img{
-    width: 100%;
+.banner-img img {
+  width: 100%;
 }
 
 /* online games section */
-.online-games{
-    max-width: 1920px;
-    margin: 5rem auto;
-    padding-left: 240px;
-    padding-right: 240px;
-    background-color: #FFF;
+.online-games {
+  max-width: 1920px;
+  margin: 5rem auto;
+  padding-left: 240px;
+  padding-right: 240px;
+  background-color: #fff;
 }
-.online-games h2{
-    font-size: 3rem;
-    text-align: center;
-    color: #0B0223;
+.online-games h2 {
+  font-size: 3rem;
+  text-align: center;
+  color: #0b0223;
 }
-.online-games-des{
-    font-size: 1.5rem;
-    text-align: center;
-    color: #534C64;
-    margin-bottom: 3rem;
+.online-games-des {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #534c64;
+  margin-bottom: 3rem;
 }
-.card-container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.5rem;
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
 }
-.game-card p{
-    font-size: 1.5rem;
-    color: #534C64;
+.game-card p {
+  font-size: 1.5rem;
+  color: #534c64;
 }
 /* play instantly */
-.play-instantly{
-    max-width: 1920px;
-    margin: 0 auto;
-    padding-left: 240px;
-    padding-right: 240px;
-    background-color: #FFF;
+.play-instantly {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-left: 240px;
+  padding-right: 240px;
+  background-color: #fff;
 }
-.play-container{
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-    justify-content: center;
+.play-container {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
 }
-.play-instantly-text{
-    width: 50%;
+.play-instantly-text {
+  width: 50%;
 }
-.play-instantly-text h2{
-    font-size: 3rem;
-    font-weight: 700;
-    color: #0B0223;
-    margin-bottom: 1.5rem;
+.play-instantly-text h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #0b0223;
+  margin-bottom: 1.5rem;
 }
-.play-instantly-text p{
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: #534C64;
+.play-instantly-text p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #534c64;
 }
-.play-instantly-img{
-    width: 50%;
+.play-instantly-img {
+  width: 50%;
 }
-.img1{
-    width: 100%;
+.img1 {
+  width: 100%;
 }
-.img2-div{
-    position: relative;
-    bottom: 14rem;
-    left: -7rem;
+.img2-div {
+  position: relative;
+  bottom: 14rem;
+  left: -7rem;
 }
 /* button section */
-.button-section{
-    max-width: 1920px;
-    margin: 5rem auto;
-    padding-left: 240px;
-    padding-right: 240px;
-    background-color: #FFF;
+.button-section {
+  max-width: 1920px;
+  margin: 5rem auto;
+  padding-left: 240px;
+  padding-right: 240px;
+  background-color: #fff;
 }
-.button-container{
-    display: grid;
-    align-items: center;
-    gap: 20px;
-    grid-template-areas: 
-    "button-1   button-2    button-3    button-4    button-5"
-    ;
+.button-container {
+  display: grid;
+  align-items: center;
+  gap: 1rem;
+  grid-template-areas: "button-1   button-2    button-3    button-4    button-5";
 }
-.btn-common{
-    display: flex;
-    align-items: center;
-    border-radius: 50px;
-    border: none;
-    padding: 10px;
+.btn-common {
+  display: flex;
+  align-items: center;
+  border-radius: 3rem;
+  border: none;
+  padding: 0.5rem;
 }
-.btn-common:hover{
-    border: 1px solid #FF42A5;
+.btn-common:hover {
+  border: 1px solid #ff42a5;
 }
-.btn-common p{
-    margin-left: 1rem;
-    color: #0B0223;
-    font-size: 1.5rem;
-    font-weight: 600;
+.btn-common p {
+  margin-left: 1rem;
+  color: #0b0223;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
-.btn-common:hover p{
-    color: #FF42A5;
+.btn-common:hover p {
+  color: #ff42a5;
 }
 /* footer */
-.footer{
-    max-width: 1920px;
-    margin: 0 auto;
-    padding: 5rem;
-    background-color: #0B0223;
+.footer {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 5rem;
+  background-color: #0b0223;
 }
-.footer-logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.footer-logo h2{
-    font-size: 3rem;
-    color: #FFF;
-    margin-left: 2rem;
+.footer-logo h2 {
+  font-size: 3rem;
+  color: #fff;
+  margin-left: 2rem;
 }
-.footer-logo img{
-    width: 86px;
-    height: 40px;
+.footer-logo img {
+  width: 86px;
+  height: 40px;
 }
-.footer-menu-container{
-    color: #FFF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.footer-menu-container {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.footer-menu ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
+.footer-menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
 }
-.footer-menu ul li{
-    list-style: none;
-    margin-left: 32px;
+.footer-menu ul li {
+  list-style: none;
+  margin-left: 32px;
+  font-size: 1.5rem;
 }
-.icon-container{
-    text-align: center;
-    margin: 3rem 0 3rem 0;
+.icon-container {
+  text-align: center;
+  margin: 3rem 0 3rem 0;
 }
-.footer-icon{
-    color: #FFF;
-    margin-right: 1rem;
+.footer-icon {
+  color: #fff;
+  margin-right: 1rem;
+  font-size: 1.5rem;
 }
-.footer-p{
-    text-align: center;
-    color: #FFF;
+.footer-p {
+  text-align: center;
+  color: #fff;
 }
-
-
 
 /* responsive mobile */
-@media screen and (max-width:576px){
-    /* navbar responsive */
-    .header{
-        padding: 0;
-    }
-    .navbar{
-        flex-direction: column;
-    }
-    .menu ul{
-        flex-direction: column;
-    }
-    .menu ul li{
-        margin-left: 0px;
-        margin-bottom: 2rem;
-    }
-    .menu-btn{
-        width: 262px;
-        text-align: center;
-    }
-    /* banner responsive */
-    .banner{
-        flex-direction: column;
-        padding: 1rem;
-    }
-    .banner-text{
-        width: 100%;
-        margin-top: 2rem;
-    }
-    .banner-img{
-        width: 100%;
-    }
-    /* online game responsive */
-    .online-games{
-        max-width: 1920px;
-        margin: 0 auto;
-        padding: 0;
-        background-color: #FFF;
-    }
-    .card-container{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .game-card{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    /* play container */
-    .play-container{
-        display: flex;
-        flex-direction: column;
-    }
-    .play-instantly{
-        max-width: 1920px;
-        margin: 0 auto;
-        padding: 0;
-    }
-    .play-instantly-text{
-        width: 100%;
-    }
-    .play-instantly-img{
-        width: 100%;
-    }
-
+@media screen and (max-width: 576px) {
+  /* navbar responsive */
+  .header {
+    padding: 0;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+  .menu ul {
+    flex-direction: column;
+  }
+  .menu ul li {
+    margin-left: 0px;
+    margin-bottom: 2rem;
+  }
+  .menu-btn {
+    width: 262px;
+    text-align: center;
+  }
+  /* banner responsive */
+  .banner {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .banner-text {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .banner-img {
+    width: 100%;
+  }
+  /* online game responsive */
+  .online-games {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fff;
+  }
+  .card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .game-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* play container */
+  .play-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .play-instantly {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  .play-instantly-text {
+    width: 100%;
+  }
+  .play-instantly-img {
+    width: 100%;
+  }
+  /* button responsive */
+  .button-section {
+    margin: 5rem auto;
+    padding: 1rem;
+  }
+  .button-container {
+    grid-template-areas:
+      "button-1   button-2    button-3"
+      "button-4   button-5    button-6"
+      "button-7   button-8    button-9";
+  }
+  .btn-common p {
+    margin: 0 0 0 0.5rem;
+    font-size: 0.5rem;
+    font-weight: 600;
+    width: 70%;
+  }
+  .btn-common img {
+    width: 30%;
+  }
+  /* footer responsive */
+.footer {
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  .footer-menu-container {
+    flex-direction: column;
+  }
+  .footer-menu ul li {
+    margin-left: 1.5rem;
+    font-size: 1rem;
+  }
+  .footer-p {
+    color: rgba(255, 255, 255, 0.60);
+    padding: 0 5rem 0 5rem;
+    font-size: 0.7rem;
+  }
 }
 
 /* responsive tablet */
-@media screen and (min-width:576px) and (max-width:992px){
-    /* navbar responsive */
-    .header{
-        padding: 0;
-    }
-    .navbar{
-        flex-direction: column;
-    }
-    .menu ul{
-        flex-direction: column;
-    }
-    .menu ul li{
-        margin-left: 0px;
-        margin-bottom: 2rem;
-    }
-    .menu-btn{
-        width: 262px;
-        text-align: center;
-    }
-    /* banner responsive */
-    .banner{
-        padding: 2rem;
-    }
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  /* navbar responsive */
+  .header {
+    padding: 0;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+  .menu ul {
+    flex-direction: column;
+  }
+  .menu ul li {
+    margin-left: 0px;
+    margin-bottom: 2rem;
+  }
+  .menu-btn {
+    width: 262px;
+    text-align: center;
+  }
+  /* banner responsive */
+  .banner {
+    padding: 2rem;
+  }
 
-    /* online game responsive */
-    .online-games{
-        max-width: 1920px;
-        margin: 0 auto;
-        padding: 0;
-        background-color: #FFF;
-    }
-    .card-container{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .game-card{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-        /* play container */
-    .play-container{
-        display: flex;
-        flex-direction: column;
-    }
-    .play-instantly{
-        max-width: 1920px;
-        margin: 0 auto;
-        padding: 0;
-    }
-    .play-instantly-text{
-        width: 100%;
-        text-align: center;
-    }
-    .play-instantly-img{
-        width: 100%;
-    }
+  /* online game responsive */
+  .online-games {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fff;
+  }
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .game-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* play container */
+  .play-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .play-instantly {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .play-instantly-text {
+    width: 100%;
+    text-align: center;
+  }
+  .play-instantly-img {
+    width: 100%;
+  }
+  /* button responsive */
+  .button-section {
+    margin: 5rem auto;
+    padding: 1rem;
+  }
+  .button-container {
+    grid-template-areas:
+      "button-1   button-2    button-3"
+      "button-4   button-5    button-6"
+      "button-7   button-8    button-9";
+  }
+  .btn-common p {
+    margin: 0 0 0 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+    /* footer responsive */
+.footer {
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  .footer-menu-container {
+    flex-direction: column;
+  }
+  .footer-menu ul li {
+    margin-left: 1.5rem;
+    font-size: 1rem;
+  }
+  .footer-p {
+    color: rgba(255, 255, 255, 0.60);
+    padding: 0 5rem 0 5rem;
+    font-size: 0.7rem;
+  }
+  
 }
